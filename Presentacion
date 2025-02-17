@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Presentacion {
+	Scanner entrada = new Scanner(System.in);
+	String Nombre,Carrera,Estado_civil;
+	int Edad,Control;
+	
+	public void ingresar(String Nombre,String Carrera,String Estado_civil, int Edad,int Control) {
+		System.out.println("Nombre: "+Nombre);
+		System.out.println("Carrera: "+Carrera);
+		System.out.println("Estado civil: "+Estado_civil);
+		System.out.println("Edad: "+Edad);
+		System.out.println("Control: "+Control);
+	}
+	
+	public void ingresar() {
+		System.out.println("Ingresa Nombre: ");
+		Nombre = entrada.next();
+		System.out.println("Ingresa Carrera: ");
+		Carrera = entrada.next();
+		System.out.println("Ingresa Estado civil: ");
+		Estado_civil = entrada.next();
+		System.out.println("Ingresa Edad: ");
+		Edad = entrada.nextInt();
+		System.out.println("Ingresa No.Control: ");
+		Control = entrada.nextInt();
+	}
+	
+	public void mostrar() {
+		System.out.println("Nombre: "+ Nombre);
+		System.out.println("Carrera: "+ Carrera);
+		System.out.println("Estado civil: "+ Estado_civil);
+		System.out.println("Edad: "+ Edad);
+		System.out.println("Control: "+ Control);
+	}
+}
