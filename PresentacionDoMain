@@ -1,0 +1,17 @@
+
+public class PresentacionDoMain {
+
+	public static void main(String[] args) {
+		Presentacion uno = new Presentacion();
+		
+		uno.ingresar("Ivonne", "DA", "Soltera", 20, 24251117);
+		
+		Presentacion dos = new Presentacion();
+		
+		dos.ingresar();
+		dos.mostrar();
+		
+
+	}
+
+}
